@@ -1,8 +1,8 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import './styles/App.css';
+import Quiz from './pages/Quiz';
 import Home from './pages/Home';
 import Err404 from './pages/Err404';
-import Quiz from './pages/Quiz';
+import './styles/App.css';
 
 function App() {
   return (
